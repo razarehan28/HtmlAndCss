@@ -1,7 +1,7 @@
-/*.container{
+.container{
     display: grid;
-    /* grid-template-columns: 300px 100px 100px; */
-    /* grid-template-columns: 300px auto 100px; */
+    grid-template-columns: 300px 100px 100px;
+    grid-template-columns: 300px auto 100px;
     /* grid-template-columns: 1fr 4fr 1fr; */
   /*  grid-template-columns: repeat(3, auto);
     grid-gap: 2rem;
@@ -13,7 +13,7 @@
     border: 2px solid black;
     padding: 15px 5px;
 }*/
-/*.grid{
+.grid{ 
   display: grid;
   grid-template-rows: 1fr 4fr 1fr;
   grid-template-columns: 1fr 4fr;

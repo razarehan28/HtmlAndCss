@@ -6,20 +6,20 @@ body{
   background-color: aqua;
 }
 .container{
-    background-color: lightgrey;
-border-radius: 23px;
+  background-color: lightgrey;
+  border-radius: 23px;
   border: 3px solid green;
   padding: 79px;
   /*we can set marging padding for top,bottom,right,left */
-           padding-bottom: 14px;
-           padding-top: 14px;
-           padding-right: 14px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-right: 14px;
   /* padding = top right bottom left;  */
-             padding: top right bottom left;
-             margin: 14px 9px;
-             margin-top: 3px;
-            margin-bottom: 5px;
-            margin-left: 34px;
-            margin-right:5px ; 
+  padding: top right bottom left;
+  margin: 14px 9px;
+  /* margin-top: 3px; 
+  margin-bottom: 5px;
+  margin-left: 34px;
+  margin-right:5px ; */ 
   width:533px;
 }

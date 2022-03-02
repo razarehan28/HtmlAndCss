@@ -220,7 +220,7 @@
 								<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
 								<label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
 							</div>
-							<!-- Nesting Group  Drop Box -->
+							<!-- Nesting Group Drop Box -->
 							<div class="col-12 py-3">
 								<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
 									<button type="button" class="btn btn-primary">1</button>
@@ -275,7 +275,180 @@
 						<span class="badge rounded-pill bg-dark">Dark</span>
 					</div>
 				</div>
-
+				<h1>Breadcrumb</h1>
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item active" aria-current="page">Home</li>
+					</ol>
+				</nav>
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Library</li>
+					</ol>
+				</nav>
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item"><a href="#">Library</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Data</li>
+					</ol>
+				</nav>
+				<h1>Dropdown</h1>
+				<!-- dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list: -->
+				<div class="dropdown">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+						Dropdown button
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Link 1</a></li>
+						<li><a class="dropdown-item" href="#">Link 2</a></li>
+						<li><a class="dropdown-item" href="#">Link 3</a></li>
+					</ul>
+				</div>
+				<!-- Dropdown Divider -->
+				<!-- .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal border: -->
+				<div class="container mt-3">
+					<h2>Dropdowns</h2>
+					<p>The .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal line:
+					</p>
+					<div class="dropdown">
+						<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+							Dropdown button
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Link 1</a></li>
+							<li><a class="dropdown-item" href="#">Link 2</a></li>
+							<li><a class="dropdown-item" href="#">Link 3</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">Another link</a></li>
+						</ul>
+					</div>
+				</div>
+				<h1>Dropdown Position</h1>
+				<!-- Dropend and Dropstart -->
+				<!--class="dropdown dropstart"> -->
+				<div class="dropdown dropend">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+						Dropend
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Normal</a></li>
+						<li><a class="dropdown-item active" href="#">Active</a></li>
+						<li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+					</ul>
+				</div>
+			</div>
+			<h1>Grouped Buttons with a Dropdown</h1>
+			<!-- Vertical Button Dropdown -->
+			<!--class="btn-group-vertical"-->
+			<div class="container mt-3">
+				<h2>Nesting Button Groups</h2>
+				<p>Nest button groups to create dropdown menus:</p>
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary">Apple</button>
+					<button type="button" class="btn btn-primary">Samsung</button>
+					<div class="btn-group">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Tablet</a></li>
+							<li><a class="dropdown-item" href="#">Smartphone</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<h1>Pagination</h1>
+			<!-- Basic Pagination -->
+			<div class="container mt-3">
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">Next</a></li>
+				</ul>
+			</div>
+			<!-- Active and Disabled -->
+			<div class="container mt-3">
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+					<li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+					<li class="page-item active"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">Next</a></li>
+				</ul>
+			</div>
+			<br>
+			<h1>Progress Bar</h1>
+			<!-- progress as a wrapper to indicate the max value of the progress bar.-->
+			<div class="container mt-3">
+				<div class="progress">
+					<div class="progress-bar" style="width:70%"></div>
+				</div>
+			</div>
+			<!-- Progress Bar Height -->
+			<div class="container mt-3">
+				<h2>Progress Bar Height</h2>
+				<p>The height of the progress bar is 1rem (16px) by default. Use the CSS height property to change the height:
+				</p>
+				<div class="progress" style="height:10px">
+					<div class="progress-bar" style="width:40%;height:10px"></div>
+				</div>
+				<br>
+				<div class="progress" style="height:20px">
+					<div class="progress-bar" style="width:50%;height:20px"></div>
+				</div>
+				<br>
+				<div class="progress" style="height:30px">
+					<div class="progress-bar" style="width:60%;height:30px"></div>
+				</div>
+			</div>
+			<!-- Progress Bar With Label -->
+			<div class="container mt-3">
+				<h2>Progress Bar With Label</h2>
+				<div class="progress">
+					<div class="progress-bar" style="width:70%">70%</div>
+				</div>
+			</div>
+			<!-- Colored Progress Bars -->
+			<!-- Blue -->
+			<div class="progress">
+				<div class="progress-bar" style="width:10%"></div>
+			</div>
+			<!-- Green -->
+			<div class="progress">
+				<div class="progress-bar bg-success" style="width:20%"></div>
+			</div>
+			<!-- Turquoise -->
+			<div class="progress">
+				<div class="progress-bar bg-info" style="width:30%"></div>
+			</div>
+			<!-- Orange -->
+			<div class="progress">
+				<div class="progress-bar bg-warning" style="width:40%"></div>
+			</div>
+			<!-- Red -->
+			<div class="progress">
+				<div class="progress-bar bg-danger" style="width:50%"></div>
+			</div>
+			<!-- White -->
+			<div class="progress border">
+				<div class="progress-bar bg-white" style="width:60%"></div>
+			</div>
+			<!-- Grey -->
+			<div class="progress">
+				<div class="progress-bar bg-secondary" style="width:70%"></div>
+			</div>
+			<!-- Light Grey -->
+			<div class="progress border">
+				<div class="progress-bar bg-light" style="width:80%"></div>
+			</div>
+			<!-- Dark Grey -->
+			<div class="progress">
+				<div class="progress-bar bg-dark" style="width:90%"></div>
+			</div>
 </body>
 
 </html>

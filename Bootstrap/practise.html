@@ -449,6 +449,113 @@
 			<div class="progress">
 				<div class="progress-bar bg-dark" style="width:90%"></div>
 			</div>
+			<!-- Multiple Progress Bars -->
+			<div class="container mt-3">
+				<h2>Multiple Progress Bars</h2>
+				<!-- Create a stacked progress bar by placing multiple bars into the same div with class="progress"-->
+				<div class="progress">
+					<div class="progress-bar bg-success" style="width:40%">
+						Free Space
+					</div>
+					<div class="progress-bar bg-warning" style="width:10%">
+						Warning
+					</div>
+					<div class="progress-bar bg-danger" style="width:20%">
+						Danger
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- Table -->
+			<h1>Table</h1>
+			<div class="container">
+				<div class="row p4">
+					<div class="col-12 py-3 text-center ">
+						<h2 class="text-danger">Bootstrap Table</h2>
+					</div>
+					<div class="col-12 py-3">
+						<!-- Table color -->
+						<table class="table table-primary">
+							<thead>
+								<tr>
+									<!-- Table color in table head -->
+									<th scope="col" class="table-info">#</th>
+									<th scope="col">First</th>
+									<th scope="col">Last</th>
+									<th scope="col">Handle</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!-- Color on whole row -->
+								<tr class="table-warning">
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<!-- color on table data -->
+									<td class="table-danger">Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<br>
+			<h1>Accented tables</h1>
+			<!-- Striped rows and Hover and Border and Borderless-->
+			<div class="col-12 py-3">
+				<table class="table  table-hover table-striped border-primary table-bordered">
+					<caption>List of users</caption>
+					<!-- Light head -->
+					<thead class="table-light">
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">First</th>
+							<th scope="col">Last</th>
+							<th scope="col">Handle</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">1</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<th scope="row">2</th>
+							<td>acob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<th scope="row">3</th>
+							<!-- Table active -->
+							<td colspan="2" class="table-active">Larry the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<th scope="row">Total</th>
+					<td colspan="2">10000</td>
+							<td>Final</td>
+						</tfoot>
+				</table>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
 </body>
 
 </html>

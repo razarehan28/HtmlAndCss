@@ -1,0 +1,19 @@
+/*Here p is the selector for styling*/
+p {
+    text-align: center;
+    color: red;
+  } 
+  /* ID selector is noted as # */
+  #para1 {
+       font-family: 'Courier New', Courier, monospace;
+    color: red;
+  }
+  /*CLASS SELECTOR is noted as . */
+  .center {
+    text-align: center;
+    color: green;
+  }
+  /* Universal Selector is noted as * */
+  * {
+    color: blue;
+  }

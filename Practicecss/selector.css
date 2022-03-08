@@ -1,0 +1,104 @@
+/* Element selector
+p,span,footer{
+	color: rgb(226, 65, 43);
+	border: 2px solid black;
+}
+/* ID selector */
+/* #secondpara{
+	color: burlywood; */
+/* } */
+/* Class selector
+.bgBlue{
+	background-color: green; */
+/* } */
+/* Grouping selector */
+/* footer,span{
+	background-color: green;
+}  */
+/* h1{
+	color: green;
+}
+.container{
+
+	background-color: yellow;
+}
+#new{
+	color: blue;
+}
+body{
+background-image: url("/home/rehanraza/Downloads/bricks.jpg");;
+}
+.champ{
+	color: green;
+}
+p{
+	color: red;
+
+	opacity: 0.6;
+} */
+/* Borders */
+/* #Firstpara{
+	background-color: coral;
+	height: 100px;
+	width: 333px;
+	border: 2px solid black;
+	border-width: 5px;
+	border-style: solid;
+	/* border-radius: 11px; */
+	/* border-top-left-radius: 5px;
+	/* border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px; */ */
+/* } */
+/* #secondPara{
+	height: 500px;
+	width: 455px;
+	background-image:url('https://codewithharry.com/img/logo-blue.png') ;
+	border: 2px solid black;
+	/*background-image property repeats an image both horizontally and vertically. */
+   /*background-repeat: repeat-x; */
+   /* background-repeat: repeat-y; */
+   /* background-repeat:no-repeat ; */
+	 /* The background-position property is used to specify the position of the background image. */
+   /* background-position: center top; */
+   /* background-position: center bottom; */
+   /* background-position: center right; */
+	 /* background-position: center left; */
+	 /* background-position: center center; */
+	  /* background-position: bottom left; */
+/* } */ */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #e6cbf8;
+}
+.container{
+	background-color: rgb(231, 230, 241);
+	border: 3px solid rgb(64, 6, 119);
+
+	/* We can set margin/padding for  top, bottom, left and right like this */
+	/* padding-top: 79px;
+	padding-bottom: 79px;
+	padding-left: 34px; 
+	padding-right: 79px;*/
+
+	/* margin-top: 3px;
+	margin-bottom: 5px;
+	margin-left: 34px;
+	margin-right:5px ; */
+
+	/* margin = top right bottom left;  */
+	/* padding = top right bottom left;  */
+
+	/* padding: 23px 56px 6px 78px;   */
+	/* margin: 23px 56px 6px 78px;   */
+
+	/* padding: y(top/bottom) x(left/right); */
+	/* margin: y(top/bottom) x(left/right); */
+	padding: 34px 19px;
+	margin: 14px 19px;
+	border-radius: 23px;
+	width: 533px;
+}

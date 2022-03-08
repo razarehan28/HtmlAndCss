@@ -1,0 +1,33 @@
+
+.container{
+    width: 900px;
+    border: 3px solid purple;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 33px auto;
+}
+
+.items{
+    border: 2px solid yellow;
+    margin:12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(233, 148, 148);
+}
+#Fruits{
+    float: left;
+    width: 48%;
+}
+#computer{
+    float: right;
+    width:48%;
+}
+#stationary{
+   clear: both;
+
+}
+p,h1{
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+}
+    
